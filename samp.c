@@ -1,14 +1,10 @@
-// C program to check if a character
-// is a vowel or consonant
+
 #include <stdio.h>
 
-// Driver code
+
 int main()
 {
 	char ch = 'A';
-
-	// Checking if the character ch
-	// is a vowel or not.
 	if (ch == 'a' || ch == 'A' || ch == 'e' || ch == 'E'
 		|| ch == 'i' || ch == 'I' || ch == 'o' || ch == 'O'
 		|| ch == 'u' || ch == 'U') {
