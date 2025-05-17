@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//prime no
 int main() {
     int n, isPrime = 1;
 
@@ -7,7 +7,7 @@ int main() {
     scanf("%d", &n);
 
     if (n <= 1) {
-        isPrime = 0; // Numbers <= 1 are not prime
+        isPrime = 0;
     } else {
         for (int i = 2; i < n; i++) {
             if (n % i == 0) {
@@ -22,7 +22,6 @@ int main() {
     } else {
         printf("%d is not a prime number.\n", n);
     }
-
     return 0;
 }
 
